@@ -5,7 +5,7 @@ pre {
 }
 hr {
 	width:100%;
-	
+
 }
 body {color:black;
 	background-color: RGB(255,255,255);
@@ -16,24 +16,24 @@ body {color:black;
 }
 #Showcase{
 	margin-left: 50px;
-	
+
 }
 #Zodiac{
 	margin-left: 50px;
-	
+
 }
 #information{
 	display: inline-block;
 	float:center;
 
-	
+
 }
 #footer {
 	position:absolute;
 	width:100%;
 	bottom:5px;
-	
-	
+
+
 }
 html{
 	font-family: "Arial";
@@ -43,13 +43,13 @@ html{
 	}
 #dd {
 	float: right;
-	
-	
+
+
 }
 .subhead {
 	padding-left: 205px;
-	
-	
+
+
 }
 ul {
 	list-style-type: none;
@@ -60,39 +60,39 @@ div{
 	padding-top: 15px;
 	padding-left: 50px;
 	padding-right: 50px;
-	
+
 }
 li{
 	margin-bottom:20px;
 	padding-right: 35px;
-	
+
 }
 a:link{
 	color:gray;
-	
-	
+
+
 }
 a:visited{
 	color:gray;
-	
+
 }
 a:hover{
 	color:gray;
-	
+
 }
 a:active{
 	color:gray;
-	
-	
+
+
 }
 a{
 	font-weight: bold;
 	text-decoration: none;
-	
-	
+
+
 }
 #mainsec{
 	font-size: 14px;
-	
-	
+
+
 }
