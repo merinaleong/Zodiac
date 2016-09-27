@@ -1,12 +1,98 @@
-body {color:blue;
-	background-image: url("images/background_test.jpg");	
+pre {
+	padding-top: 30px;
+	font-family: "Arial";
+	font-size: 14px;
+}
+hr {
+	width:100%;
+	
+}
+body {color:black;
+	background-color: RGB(255,255,255);
 	background-size: 100% 100%;
+	bottom:0;
 	background-repeat: no-repeat;
+
 }
-ul{
-border:1px solid black;
+#Showcase{
+	margin-left: 50px;
+	
 }
-#linkDiv{
+#Zodiac{
+	margin-left: 50px;
+	
+}
+#information{
 	display: inline-block;
-		
+	float:center;
+
+	
+}
+#footer {
+	position:absolute;
+	width:100%;
+	bottom:5px;
+	
+	
+}
+html{
+	font-family: "Arial";
+	width:1024px;
+	height: 768px;
+	margin: 0 auto;
+	}
+#dd {
+	float: right;
+	
+	
+}
+.subhead {
+	padding-left: 205px;
+	
+	
+}
+ul {
+	list-style-type: none;
+	float:left;
+}
+div{
+	margin-left: 200px;
+	padding-top: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+}
+li{
+	margin-bottom:20px;
+	padding-right: 35px;
+	
+}
+a:link{
+	color:gray;
+	
+	
+}
+a:visited{
+	color:gray;
+	
+}
+a:hover{
+	color:gray;
+	
+}
+a:active{
+	color:gray;
+	
+	
+}
+a{
+	font-weight: bold;
+	text-decoration: none;
+	
+	
+}
+#mainsec{
+	font-size: 14px;
+	
+	
 }
