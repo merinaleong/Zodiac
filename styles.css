@@ -5,6 +5,7 @@ pre {
 }
 hr {
 	width:100%;
+}
 
 }
 body {color:black;
@@ -37,6 +38,7 @@ body {color:black;
 }
 html{
 	font-family: "Arial";
+	background-color: rgb(100 100 100);
 	width:1024px;
 	height: 768px;
 	margin: 0 auto;
@@ -82,7 +84,19 @@ a:hover{
 }
 a:active{
 	color:gray;
+}
 
+#button1 {
+	    background-color: gray;
+	    border: none;
+	    color: white;
+	    padding: 8px 32px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 16px;
+	    margin: 0px 50px;
+	}
 
 }
 a{
@@ -95,10 +109,4 @@ a{
 	font-size: 14px;
 
 
-}
-#home{
-	margin: 0 auto;
-	width: 80%;
-	
-	
 }
