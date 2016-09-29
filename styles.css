@@ -2,6 +2,7 @@ pre {
 	padding-top: 30px;
 	font-family: "Arial";
 	font-size: 14px;
+
 }
 hr {
 	width:100%;
@@ -85,7 +86,12 @@ a:hover{
 a:active{
 	color:gray;
 }
+a{
+	font-weight: bold;
+	text-decoration: none;
 
+
+}
 #button1 {
 	    background-color: gray;
 	    border: none;
@@ -99,12 +105,8 @@ a:active{
 	}
 
 }
-a{
-	font-weight: bold;
-	text-decoration: none;
 
 
-}
 #mainsec{
 	font-size: 14px;
 
