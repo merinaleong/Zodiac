@@ -4,6 +4,7 @@ pre {
 	font-size: 14px;
 	float:right;
 }
+
 hr {
 	width:100%;
 }
@@ -22,12 +23,15 @@ body {color:black;
 	margin-left: 50px;
 
 }
+
 #information{
 	display: inline-block;
 }
+
 #footer {
 	display: inline-block;
 }
+
 html{
 	font-family: "Arial";
 	background-color: rgb(255, 255, 255);
@@ -96,7 +100,7 @@ a{
 	float:left;
 	height: 10%;
 	width: 20%;
-		
+
 }
 .animal{
 	display: inline-block;
@@ -106,7 +110,7 @@ a{
 }
 #centerpic{
 	display: inline-block;
-	
+
 }
 .centertext{
 	text-align: center;
@@ -114,16 +118,17 @@ a{
 }
 .textbox1{
 	width: 100%;
-	
-	
 }
 #comments{
 	width: 100%;
 
 }
-table{
-	
+
+th {
+	text-align: right;
+	padding-right: 10px;
 }
+
 #button1 {
 	    background-color: gray;
 		opacity: 0.6;
@@ -135,7 +140,7 @@ table{
 	    font-size: 16px;
 		margin-left: 119px;
 }
+
 #tablediv{
 	margin-left: 193px;
-	
 }
