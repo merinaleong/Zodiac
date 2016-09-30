@@ -2,6 +2,7 @@
 COMP 1536
 Chinese Zodiac Assignment 
 Quincy Lam - A00994454  - 1A - qlam3@my.bcit.ca
+
 Merina Leong - A00988891 - 1A - merinaleong@gmail.com
 
 What we have completed: 
