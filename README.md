@@ -1,7 +1,7 @@
 # Zodiac
 COMP 1536
 Chinese Zodiac Assignment 
-Quincy Lam - A00994454  - 1A - qlam3@my.bcit.ca 
+Quincy Lam - A00994454  - 1A - qlam3@my.bcit.ca
 Merina Leong - A00988891 - 1A - merinaleong@gmail.com
 
 What we have completed: 
@@ -39,5 +39,3 @@ https://www.pexels.com/photo/laptop-notebook-working-macbook-7109/
 
 Zodiac Logo 
 http://gallery.yopriceville.com/Free-Clipart-Pictures/Zodiac-PNG/Transparent_Chinese_Zodiac_PNG_Clipart_Image#.V-6vfSgrI2w
-
-
