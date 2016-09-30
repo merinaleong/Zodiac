@@ -1,13 +1,11 @@
 pre {
-	padding-top: 30px;
+	padding-top: 50px;
 	font-family: "Arial";
 	font-size: 14px;
-
+	float:right;
 }
 hr {
 	width:100%;
-}
-
 }
 body {color:black;
 	background-color: RGB(255,255,255);
@@ -26,37 +24,28 @@ body {color:black;
 }
 #information{
 	display: inline-block;
-	float:center;
-
-
 }
 #footer {
-	position:absolute;
-	width:100%;
-	bottom:5px;
-
-
+	display: inline-block;
 }
 html{
 	font-family: "Arial";
-	background-color: rgb(100 100 100);
+	background-color: rgb(255, 255, 255);
 	width:1024px;
 	height: 768px;
 	margin: 0 auto;
 	}
-#dd {
-	float: right;
-
-
-}
-.subhead {
+.subhead1 {
 	padding-left: 205px;
-
+	color: gray;
 
 }
-ul {
-	list-style-type: none;
-	float:left;
+.subhead2 {
+	padding-left: 205px;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 0px;
+
 }
 div{
 	margin-left: 200px;
@@ -65,6 +54,11 @@ div{
 	padding-right: 50px;
 
 }
+ul {
+	list-style-type: none;
+	float:left;
+}
+
 li{
 	margin-bottom:20px;
 	padding-right: 35px;
@@ -92,23 +86,56 @@ a{
 
 
 }
-#button1 {
-	    background-color: gray;
-	    border: none;
-	    color: white;
-	    padding: 8px 32px;
-	    text-align: center;
-	    text-decoration: none;
-	    display: inline-block;
-	    font-size: 16px;
-	    margin: 0px 50px;
-	}
-
-}
-
 
 #mainsec{
 	font-size: 14px;
 
 
+}
+.logo {
+	float:left;
+	height: 10%;
+	width: 20%;
+		
+}
+.animal{
+	display: inline-block;
+	height: 10%;
+	width: 20%;
+	float: right;
+}
+#centerpic{
+	display: inline-block;
+	
+}
+.centertext{
+	text-align: center;
+	font-weight: bold;
+}
+.textbox1{
+	width: 100%;
+	
+	
+}
+#comments{
+	width: 100%;
+
+}
+table{
+	
+}
+#button1 {
+	    background-color: gray;
+		opacity: 0.6;
+	    border: none;
+	    color: white;
+	    padding: 8px 32px;
+	    text-align: center;
+	    text-decoration: none;
+	    font-size: 16px;
+		margin-left: 119px;
+}
+#tablediv{
+	margin-left: 193px;
+	
 }

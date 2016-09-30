@@ -1,48 +1,42 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1 -strict.dtd">
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
   <title>The 12 Chinese Zodiac animals</title>
-  <meta charset="utf-8">
-	<link rel="stylesheet" href="styles.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-	<p>
-	   <img src="images/logo.png" style="float:left" height= 10% width= 20% />
-	    <h3 style="float:right"><pre><a href="index.html" >Home</a>   <a href="contactus.html" >Contact Us   </a><a href="12signs.html" >The Zodiac Collection</a></pre></h3>
-	</p>
-  <img src="images/contactus.png" style="float: center"/>
-  <p align="center"><b>Got questions? Leave us a comment!</b></p>
-  <table align="center" cellpadding="8px">
-    <form action="http://php.vncvr.ca/zodiac/" method="post" name="ContactUs">
-      <input type="hidden" name="Student1Name" value="Merina Leong">
-      <input type="hidden" name="Student2Name" value="Quincy Lame">
-      <input type="hidden" name="Set" value="1A">
-    <tr>
-      <td align="right" width="130"><label id="Name">Name</label></td>
-      <td><input name="Name" type="text" id="Name" size="72"/></td>
-    </tr>
-    <tr>
-      <td align="right" width="130"><label id="Email Address">Email Address</label></td>
-      <td><input name="Email" type="text" id="Email Address" size="72"/></td>
-    </tr>
-    <tr>
-      <td align="right" width="130"><label id="Comment">Comment</label></td>
-      <td><textarea name="Comment" id="Comment" rows="5" cols="67"></textarea></td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td>
-      <div>
-        <input type="submit" value="Submit" id="button1" align="left"/>
-      </div>
-    </td>
-  </tr>
-    </form>
-  </table>
-  <footer align="center">
-  <hr />
-  <br />
-  Merina Leong A00988891 merinaleong@gmail.com | Quincy Lam A00994454 ____________
-</footer>
+	<p><img class="logo" src="images/logo.png" alt="logo" /></p>
+	<pre><a href="index.html" >Home</a>   <a href="contactus.html" >Contact Us   </a><a href="12signs.html" >The Zodiac Collection</a></pre>
+	<p><img id="centerpic" src="images/contactus.png" alt="banner"/></p>
+	<p class="centertext"><b>Got questions? Leave us a comment!</b></p>
+	<div id="tablediv">
+		<form action="http://php.vncvr.ca/zodiac/" method="post">
+			<table>
+				<tr>
+					<th>Name</th>
+					<th colspan="2"><input class="textbox1" name="Name" type="text"/></th>
+				</tr>
+				<tr>
+					<th>Email Address</th>
+					<th colspan="2"><input class="textbox1" name="Email" type="text"/></th>
+				</tr>
+				<tr>
+					<th>Comments</th>
+					<th colspan="2"><textarea id="comments" name="Comment" rows="5" cols="40"></textarea></th>
+				</tr>
+			</table>
+			<p><input type="submit" value="Submit" id="button1" /></p>
+			<p><input type="hidden" name="Student1Name" value="Merina Leong" /></p>
+			<p><input type="hidden" name="Student2Name" value="Quincy Lam" /></p>
+			<p><input type="hidden" name="Set" value="1A" /></p>
+		</form>
+	</div>
+	<hr />
+	<div id ="footer">
+		<br />
+		Merina Leong A00988891 <a href="mailto:merinaleong@gmail.com">Merina Leong</a> | Quincy Lam A00994454 <a href="mailto:qlam3@my.bcit.ca">Quincy Lam</a>
+	</div>
 </body>
 </html>
